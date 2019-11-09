@@ -11,6 +11,11 @@ const routes = [
     component: Home
   },
   {
+    path: '/wifi',
+    name: 'wifi',
+    component: () => import(/* webpackChunkName: "about" */ '../views/WIFI.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
