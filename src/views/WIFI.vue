@@ -2,6 +2,7 @@
   <div>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group
+        label-cols="4" label-cols-lg="2" label-size="sm"
         id="input-group-1"
         label="Email address:"
         label-for="input-1"

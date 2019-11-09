@@ -13,7 +13,12 @@ const routes = [
   {
     path: '/wifi',
     name: 'wifi',
-    component: () => import(/* webpackChunkName: "about" */ '../views/WIFI.vue')
+    component: () => import('../views/WIFI.vue')
+  },
+  {
+    path: '/ntrip',
+    name: 'ntrip',
+    component: () => import('../views/NTRIP.vue')
   },
   {
     path: '/about',
