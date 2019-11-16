@@ -5,6 +5,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/wifi">WIFI</router-link> |
       <router-link to="/ntrip">NTRIP</router-link> |
+      <router-link to="/gps">GPS</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>

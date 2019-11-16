@@ -21,6 +21,11 @@ const routes = [
     component: () => import('../views/NTRIP.vue')
   },
   {
+    path: '/gps',
+    name: 'gps',
+    component: () => import('../views/GPS.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
